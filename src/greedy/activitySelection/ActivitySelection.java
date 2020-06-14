@@ -26,11 +26,5 @@ public class ActivitySelection {
 			}
 		}
 		System.out.println("Total activities done = "+count);
-		
 	}
-	
-	//alt sort for shortest duration, busy time maintained in time array 
-	
-	
-	
 }
