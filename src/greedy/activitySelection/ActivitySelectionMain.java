@@ -23,7 +23,7 @@ public class ActivitySelectionMain {
 		}
 		
 		//Perform calculation on activities
-		ActivitySelection.select(activityList);
+		ActivitySelection.selectActivity(activityList);
 	
 	}//end of method
 

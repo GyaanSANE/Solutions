@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
+//select max number of activities that can be performed from the given list
 public class ActivitySelection {
 	ArrayList<Activity> actList; //= new ArrayList<>();
 	
@@ -14,7 +15,7 @@ public class ActivitySelection {
 		}
 	};
 
-	public static void select(ArrayList<Activity> actList) {
+	public static void selectActivity(ArrayList<Activity> actList) {
 		Collections.sort(actList,comparator);
 		int busy=-1;
 		int count=0;
