@@ -1,6 +1,6 @@
 package divideAndConquer.countWays;
 
-public class CountWays {
+public class CountWays_DnC {
 	//find the number of ways in which N can be represented as a sum of 1,3,4
 	
 	int findWays(int n) {
@@ -22,7 +22,7 @@ public class CountWays {
 	}
 	
 	public static void main(String[] args) {
-		CountWays en = new CountWays();
+		CountWays_DnC en = new CountWays_DnC();
 		System.out.println(en.findWays(4));
 		System.out.println(en.findWays(5));
 		System.out.println(en.findWays(10));

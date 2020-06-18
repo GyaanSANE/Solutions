@@ -1,6 +1,6 @@
 package divideAndConquer.houseThief;
 
-public class HouseThief {
+public class HouseThief_DnC {
 	//thief cant steal from 2 adjacent houses, maximize the value
 	
 	public int steal(int[] houses) {
@@ -23,7 +23,7 @@ public class HouseThief {
 	
 	
 	public static void main(String[] args) {
-		HouseThief ht = new HouseThief();
+		HouseThief_DnC ht = new HouseThief_DnC();
 		int[] HouseNetWorth = {6, 7, 1, 30, 8, 2, 4};
 		System.out.println(ht.steal(HouseNetWorth));
 		HouseNetWorth = new int[] {20, 5, 1, 13, 6, 11, 40};

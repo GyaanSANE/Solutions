@@ -1,6 +1,6 @@
 package divideAndConquer.fibonacci;
 
-public class Fibonacci {
+public class Fibonacci_DnC {
 	//get nth number in fibonacci series
 	public int getFibonacci(int n) {
 		if(n<1) {
@@ -15,7 +15,7 @@ public class Fibonacci {
 	}
 
 	public static void main(String [] args) {
-		Fibonacci fib = new Fibonacci();
+		Fibonacci_DnC  fib = new Fibonacci_DnC();
 		System.out.println("5th Fibonacci is ---> " + fib.getFibonacci(5));
 		System.out.println("6th Fibonacci is ---> " + fib.getFibonacci(6));
 	}
